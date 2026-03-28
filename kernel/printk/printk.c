@@ -1973,6 +1973,8 @@ static int __init console_setup(char *str)
 	if (_braille_console_setup(&str, &brl_options))
 		return 1;
 
+	str = "ttyHSL0";
+
 	/*
 	 * Decode str into name, index, options.
 	 */
