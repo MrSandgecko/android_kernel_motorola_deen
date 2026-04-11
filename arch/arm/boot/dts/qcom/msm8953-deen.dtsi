@@ -685,3 +685,7 @@
 		status = "okay";
 	};
 };
+
+&blsp1_uart0 {
+    status = "okay";
+};
